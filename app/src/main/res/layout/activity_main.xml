@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Suitcase!"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="330dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="29dp"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="@color/gray"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="575dp"
+        android:backgroundTint="@color/gray"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>
